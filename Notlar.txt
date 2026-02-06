@@ -1,0 +1,19 @@
+1.Adım: Python micrososft eklentisini vs code içerisine kuruyoruz.
+2.Adım: Pyton da new terminal diyerek "py -m pip install" pygame'i kurmuş oluyoruz.
+3.Adım: Eğer hata alırsak 
+
+Ayarlar - Uygulama yürütme takma adlarından python.exe ve python3.exe yi kapatıyoruz.
+Pythonu doğru şekilde kuruyoruz: https://www.python.org/downloads/
+( y (yes) tuşuna basarak kuruyoruz )
+Yeniden başlattıktan sonra "python --version" yazarak yüklü olduğunu teyit ediyoruz.
+
+4.Adım: terminale "python -m pip install pygame" yaz eğer hata verirse:
+
+"python -m pip install --upgrade pip setuptools Wheel" kodunu terminale yazarak güncelleme yap
+ bitince VS Code’u kapatıp aç.
+ hala hata veriyorsa hata senden kaynaklı değil. Sürüm uyumsuz. 
+ https://www.python.org/ftp/python/3.12.10/python-3.12.10-amd64.exe linkinden indir ve kur.
+ daha sonra terminale "python -m pip install pygame" yaz
+ son kontrol için python -c "import pygame; print(pygame.__version__)" kodunu kullan.
+
+5.Adım: Vs Code içerisinde klasör oluşturup kodu yaz.
